@@ -1,8 +1,8 @@
 #! /usr/bin/python
 
-'''This is a simple command line python program which fetch maximum 50 latest jobs from jobs.af API and accept two optional 
-arguments (--category='job category --title='job title') and can filter jobs bassed on them and it print the result to a .xlsx
-in three sheets Male, Female and Any according the gender of jobs.'''
+'''This is a simple command line python program which fetches maximum 50 latest jobs from jobs.af API and accept two optional 
+arguments (--category='job category --title='job title') and can filter jobs bassed on them, then it prints the result to a .xlsx
+worksheet with three sheets Male, Female and Any according the gender of jobs.'''
 import urllib2, json, sys, csv, xlsxwriter, argparse
 
 #Create an ArgumentParser
